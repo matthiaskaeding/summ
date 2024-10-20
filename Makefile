@@ -9,3 +9,8 @@ data:
 	mkdir -p data/subfolder
 	duckdb < scripts/make-dfs.sql
 .PHONY: data
+
+run:
+	go run .
+.PHONY: run
+
